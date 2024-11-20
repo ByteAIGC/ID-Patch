@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <!-- Meta tags for social media banners, these should be filled in appropriatly as they are your "business card" -->
+  <!-- Replace the content tag with appropriate information -->
+  <meta name="description" content="DESCRIPTION META TAG">
+  <meta property="og:title" content="SOCIAL MEDIA TITLE TAG"/>
+  <meta property="og:description" content="SOCIAL MEDIA DESCRIPTION TAG TAG"/>
+  <meta property="og:url" content="URL OF THE WEBSITE"/>
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X630-->
+  <meta property="og:image" content="static/image/your_banner_image.png" />
+  <meta property="og:image:width" content="1200"/>
+  <meta property="og:image:height" content="630"/>
+
+
+  <meta name="twitter:title" content="TWITTER BANNER TITLE META TAG">
+  <meta name="twitter:description" content="TWITTER BANNER DESCRIPTION META TAG">
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X600-->
+  <meta name="twitter:image" content="static/images/your_twitter_banner_image.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <!-- Keywords for your paper to be indexed by-->
+  <meta name="keywords" content="KEYWORDS SHOULD BE PLACED HERE">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <title>ID-Patch</title>
+  <link rel="icon" type="image/x-icon" href="static/images/favicon.ico">
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+  rel="stylesheet">
+
+  <link rel="stylesheet" href="static/css/bulma.min.css">
+  <link rel="stylesheet" href="static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="static/css/index.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
+  <script defer src="static/js/fontawesome.all.min.js"></script>
+  <script src="static/js/bulma-carousel.min.js"></script>
+  <script src="static/js/bulma-slider.min.js"></script>
+  <script src="static/js/index.js"></script>
+</head>
+<body>
+
+
+  <section class="hero">
+    <div class="hero-body">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered">
+          <div class="column has-text-centered">
+            <h1 class="title is-1 publication-title">ID-Patch: Robust ID Association for Group Photo Personalization</h1>
+            <div class="is-size-5 publication-authors">
+              <!-- Paper authors -->
+              <span class="author-block">
+                <a href="https://damon-demon.github.io" target="_blank">Yimeng Zhang </a><sup>1,2,*</sup>,</span>
+                <span class="author-block">
+                  <a href="https://tiancheng-zhi.github.io" target="_blank">Tiancheng Zhi</a><sup>1</sup>,</span>
+                  <span class="author-block">
+                    <a href="https://www.jingliu.net" target="_blank">Jing Liu</a><sup>1</sup>,</span>
+                  </span>
+                  <a href="https://ssangx.github.io" target="_blank">Shen Sang</a><sup>1</sup>,</span>
+                  </span>
+                  <a href="https://liming-jiang.com" target="_blank">Liming Jiang</a><sup>1</sup>,</span>
+                  </span>
+                  <a href="https://scholar.google.com/citations?user=0TIYjPAAAAAJ&hl=en" target="_blank">Qing Yan</a><sup>1</sup>,</span>
+                  </span>
+                  <a href="https://lsjxjtu.github.io" target="_blank">Sijia Liu</a><sup>2</sup>,</span>
+                  </span>
+                  <a href="https://scholar.google.com/citations?user=fqubyX0AAAAJ&hl=en" target="_blank">Linjie Luo</a><sup>1</sup>
+                  </span>
+                  </div>
+
+                  <div class="is-size-5 publication-authors">
+                    <span class="author-block">( Code and model are coming soon!! )</span>
+                    <span class="eql-cntrb"><small><br><sup>*</sup>Work done during internship at ByteDance.</small></span>
+                  </div>
+
+                  <div class="column has-text-centered">
+                    <div class="publication-links">
+                         <!-- Arxiv PDF link -->
+                      <span class="link-block">
+                        <a href="https://arxiv.org/pdf/<ARXIV PAPER ID>.pdf" target="_blank"
+                        class="external-link button is-normal is-rounded is-dark">
+                        <span class="icon">
+                          <i class="fas fa-file-pdf"></i>
+                        </span>
+                        <span>Paper</span>
+                      </a>
+                    </span>
+
+                  <!-- Github link -->
+                  <span class="link-block">
+                    <a href="https://github.com/YOUR REPO HERE" target="_blank"
+                    class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="fab fa-github"></i>
+                    </span>
+                    <span>Code</span>
+                  </a>
+                </span>
+
+                <!-- ArXiv abstract Link -->
+                <span class="link-block">
+                  <a href="https://arxiv.org/abs/<ARXIV PAPER ID>" target="_blank"
+                  class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                    <i class="ai ai-arxiv"></i>
+                  </span>
+                  <span>arXiv</span>
+                </a>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="hero teaser">
+  <div class="container is-max-desktop">
+    <div class="hero-body">
+      <img src="./static/images/t8.png"
+                 alt="Interpolate start reference image."/>
+      <h2 class="subtitle has-text-centered">
+        <span class="subtitle has-text-centered">Comparison with state-of-the-art multi-identity generation methods. From left to right: the condition inputs followed by results generated using <a href="https://github.com/kongzhecn/OMG" target="_blank">OMG </a> (with <a href="https://github.com/instantX-research/InstantID" target="_blank">InstantID </a>), <a href="https://arxiv.org/abs/2404.19427" target="_blank">InstantFamily </a>, and our proposed ID-Patch approach. <a style="color: red;">Red dashed boxes</a>  highlight failures. OMG fails to preserve the hairstyles of the middle person, and creates artifacts for the right woman's hand, possibly because of the inconsistency between its generation stages . InstantFamily suffers from ID leakage, resulting the incorrect ID of the middle person. Our approach preserves the detailed identity of each person. In addition, our approach is 7 times faster than OMG and has less computational overhead than InstantFamily.
+      </h2>
+    </div>
+  </div>
+</section>
+
+
+
+<!-- Paper abstract -->
+<section class="section hero is-light">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>
+            The ability to synthesize personalized group photos and specify the positions of each identity offers immense creative potential. While such imagery can be visually appealing, it presents significant challenges for existing technologies. A persistent issue is identity (ID) leakage, where injected facial features interfere with one another, resulting in low face resemblance, incorrect positioning, and visual artifacts. Existing methods suffer from limitations such as the reliance on segmentation models, increased runtime, or a high probability of ID leakage. To address these challenges, we propose ID-Patch, a novel method that provides robust association between identities and 2D positions. Our approach generates an ID patch and ID embeddings from the same facial features: the ID patch is positioned on the conditional image for precise spatial control, while the ID embeddings integrate with text embeddings to ensure high resemblance. Experimental results demonstrate that ID-Patch surpasses baseline methods across metrics, such as face ID resemblance, ID-position association accuracy, and generation efficiency.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End paper abstract -->
+
+
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <!-- Paper video. -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-full">
+        <h2 class="title is-3">Pipeline of ID-Patch</h2>
+          <img src="./static/images/pipeline_r3.png"
+                  alt="Interpolate start reference image" style="width: 100%; height: auto;"/>
+      </div>
+    </div>
+    <!--/ Pipeline -->
+  </div>
+</section>
+
+
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <!-- Paper video. -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-full">
+        <h2 class="title is-3">Pose-Free Generation using ID-Patch</h2>
+          <img src="./static/images/no_pose.png"
+                  alt="Interpolate start reference image" style="width: 100%; height: auto;"/>
+      </div>
+    </div>
+    <!--/ Pose-Free Generation. -->
+  </div>
+</section>
+
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <!-- Paper video. -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-full">
+        <h2 class="title is-3">Plug-and-Play: Canny Edge</h2>
+          <img src="./static/images/edge_gen.png"
+                  alt="Interpolate start reference image" style="width: 100%; height: auto;"/>
+          <figcaption>Combination of pose-free ID-Patch ControlNet and pretrained Canny edge ControlNet.</figcaption>
+      </div>
+    </div>
+    <!--/ Edge-Generation. -->
+  </div>
+</section>
+
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <!-- Paper video. -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-full">
+        <h2 class="title is-3">Pose-Conditioned Generation</h2>
+          <img src="./static/images/concat_vis_p1.png"
+                  alt="Interpolate start reference image" style="width: 100%; height: auto;"/>
+          <img src="./static/images/concat_vis_p2.png"
+                  alt="Interpolate start reference image" style="width: 100%; height: auto;"/>
+          <img src="./static/images/concat_vis_p3.png"
+                  alt="Interpolate start reference image" style="width: 100%; height: auto;"/>
+          <img src="./static/images/concat_vis_p4.png"
+                  alt="Interpolate start reference image" style="width: 100%; height: auto;"/>
+          <img src="./static/images/concat_vis_p5.png"
+                  alt="Interpolate start reference image" style="width: 100%; height: auto;"/>
+      </div>
+    </div>
+    <!--/ Edge-Generation. -->
+  </div>
+</section>
+    
+
+
+
+
+<!--BibTex citation -->
+  <section class="section" id="BibTeX">
+    <div class="container is-max-desktop content">
+      <h2 class="title">BibTeX</h2>
+      <pre><code>@article{zhang2024idpatch,
+        title={ID-Patch: Robust ID Association for Group Photo Personalization},
+        author={Zhang, Yimeng and Zhi, Tiancheng and Liu, Jing and Sang, Shen and Jiang, Liming and Yan, Qing and Liu, Sijia and Luo, Linije},
+        journal={arXiv preprint arXiv:2405.15234},
+        year={2024}
+      }</code></pre>
+    </div>
+</section>
+<!--End BibTex citation -->
+
+
+  <footer class="footer">
+  <div class="container">
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+
+          <p>
+            This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a> which was adopted from the <a href="https://nerfies.github.io" target="_blank">Nerfies</a> project page.
+             This website is licensed under a <a rel="license"  href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative
+            Commons Attribution-ShareAlike 4.0 International License</a>.
+          </p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- Statcounter tracking code -->
+  
+<!-- You can add a tracker to track page visits by creating an account at statcounter.com -->
+
+    <!-- End of Statcounter Code -->
+
+  </body>
+  </html>
